@@ -1,0 +1,199 @@
+#skills {
+    height: 100vh;
+    padding-top: 0.1rem;
+}
+#skills-heading-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#skills-heading-container h3 {
+    color: #5a9dad;
+    font-size: 1.5rem;
+}
+#skills-heading-container h1 {
+    color: #551A8B;
+    font-size: 3.5rem;
+}
+
+#skills-container svg {
+    margin-left: 2rem;
+    position: absolute;
+}
+
+.skills-row {
+    height: 3rem;
+    width: 100vw;
+    position: relative;
+}
+#skills-row1 {
+    display: flex;
+    justify-content: space-around;
+    top: 6.5rem;
+}
+#skills-row2 {
+    display: flex;
+    justify-content: space-around;
+    top: 10rem;
+    height: 17rem;
+}
+#skills-row3 {
+    display: flex;
+    justify-content: space-around;
+    top: 12.5rem;
+    height: 6rem;
+}
+.nodes {
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    text-align: center;
+    animation: blinker 1s ease-in-out 0s infinite alternate;
+
+}
+.nodes h3 {
+    margin-top: 0.7rem;
+}
+
+
+.endNodes {
+    height: 6rem;
+    width: 6rem;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-color: black;
+}
+.endNodes img {
+    height: 6rem;
+    width: 6rem;
+    /* border-radius: 50%; */
+}
+#dev {
+    border: 1px solid red;
+    left: 6.9rem;
+}
+#programming {
+    border: 1px solid blue;
+    left: 1.2rem;
+}
+#BackEnd {
+    top: 1.4rem;
+    left: 2.7rem;
+    border: 1px solid orange;
+}
+#FrontEnd {
+    top: 7.7rem;
+    left: -1.7rem;
+    border: 1px solid yellow;
+
+}
+#Other {
+    border: 1px solid green;
+    top: 13.2rem;
+    left: -5rem;
+}
+#Node {
+    top: 8rem;
+    left: 10.6rem;
+}
+#Express {
+    top: 8rem;
+    left: -4.5rem;
+}
+#Cpp {
+    left: 1.2rem;
+}
+#Java {
+    left: -6.9rem;
+}
+#HTML {
+    left: 7.2rem;
+}
+#CSS {
+    left: 5.2rem;
+}
+#JS {
+    left: 2.9rem;
+}
+#React {
+    left: 0.2rem;
+    /* border: none; */
+}
+#Tailwind {
+    left: -1.8rem;
+}
+#GitHub {
+    left: -3rem;
+}
+#Figma {
+    left: -7.1rem;
+}
+#TBD {
+    left: -10.7rem;
+}
+#DevLine {
+    stroke: red;
+}
+#OtherLine {
+    stroke: green;
+}
+#ProgrammingLine {
+    stroke: blue;
+}
+#BackendLine{
+    stroke: orange;
+}
+#FrontendLine{
+    stroke: yellow;
+}
+#NodeLine{
+    stroke: #4F9E3F;
+}
+#HTMLLine{
+    stroke: #E34F26;
+}
+#CSSLine{
+    stroke: #264DE4;
+}
+#JSLine{
+    stroke: #D4B830;
+}
+#ReactLine{
+    stroke: #01D3FA;
+}
+#TailwindLine {
+    stroke: #43A8B2;
+}
+#GithubLine {
+    stroke: #FFFFFF;
+}
+#FigmaLine {
+    stroke: #F24D1C;
+}
+#TBDLine {
+    /* stroke: ; */
+}
+#CppLine {
+    stroke: #5D8DBD;
+}
+#JavaLine {
+    stroke: #E66E00;
+    
+}
+#skills-container svg .Lines {
+    animation: blinker 1s ease-in-out 0s infinite alternate;
+}
+@keyframes blinker {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}

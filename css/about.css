@@ -1,0 +1,89 @@
+#about {
+    background-color: transparent;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 10rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
+
+#about .about-box {
+    height: 40rem;
+    width: auto;
+    /* border: 1px solid white; */
+}
+#about #box1 {
+    width: 30rem;
+    height: 30rem;
+    /* max-width: 30rem; */
+    background-image: url(../public/PHOTO1.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    animation: ImageSwing 5s linear 0s infinite alternate;
+}
+
+#about #box2 {
+    flex: 1;
+}
+
+#about-heading-container h3 {
+    color: #5a9dad;
+    font-size: 1.5rem;
+}
+#about-heading-container h1 {
+    color: #551A8B;
+    font-size: 3.5rem;
+}
+
+#about #box2 p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #e6d8d8;
+    line-height: 2.4rem;
+}
+
+#about #btn-container {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    
+}
+
+#btn-container button {
+    margin-top: 2rem;
+    height: 4rem;
+    width: 12rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    border: 1px solid white;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem #ccc;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in 0s ;
+    cursor: pointer;
+}
+#btn-container button:hover {
+    transform: translateY(0px);
+    box-shadow: 0rem 0rem #a49090;
+
+}
+
+@keyframes ImageSwing {
+    0% {
+        transform: rotate(-10deg);
+    } 
+    100% {
+        transform: rotate(10deg);
+    }
+}
+

@@ -1,0 +1,18 @@
+#contact {
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+#contact-heading-container {
+    text-align: center;
+}
+
+#contact-heading-container h3 {
+    color: #5a9dad;
+    font-size: 1.5rem;
+}
+#contact-heading-container h1 {
+    color: #551A8B;
+    font-size: 3.5rem;
+}
+contact

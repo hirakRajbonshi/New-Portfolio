@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    width: 100vw;
+    
+}
+
+canvas {
+    /* height: 20rem; */
+    /* width: 20rem; */
+    position: fixed;
+    /* background-color: #030C21; */
+    background-color: black;
+    z-index: -1;
+}

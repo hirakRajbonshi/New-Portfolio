@@ -1,0 +1,78 @@
+#hero {
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-box {
+    height: 60%;
+    width: 60%;
+    /* border: 1px solid white; */
+    /* background-color: rgba(12, 22, 45, 0.3); */
+    /* backdrop-filter: blur(5px); */
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 8rem; */
+    align-items: center;
+
+}
+
+#hero-box h1 {
+    color: white;
+    font-size: 6rem;
+    
+}
+
+#hero-box #typewriter {
+    font-size: 4rem;
+}
+#hero-box #typewriter #colored {
+    font-size: 4rem;
+    color: rgb(106, 0, 255);
+}
+#hero-box #typewriter #colored-dark {
+    font-size: 4rem;
+    color: rgb(70, 70, 70);
+}
+#hero-box h1 #H {
+    color: red;
+    background: linear-gradient(to right, #2007c5, #5305d1);
+    /* background: -webkit-linear-gradient(#2007c5, #d10505); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#scrollBtn {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    border: none;
+}
+
+/* ID of the arrow Not working*/
+/* #scrollBtn #arrow1 {
+    animation: arrowZoom 1s ease-in alternate;
+    display: none;
+} */
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(100px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 1.5s infinite;
+}

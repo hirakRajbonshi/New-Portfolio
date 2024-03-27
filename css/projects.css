@@ -1,0 +1,23 @@
+#projects {
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-color: green; */
+}
+
+#projects-heading-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#projects-heading-container h3 {
+    color: #5a9dad;
+    font-size: 1.5rem;
+}
+#projects-heading-container h1 {
+    color: #551A8B;
+    font-size: 3.5rem;
+}
+
+#contact-box {
+    
+}
