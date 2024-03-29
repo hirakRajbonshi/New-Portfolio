@@ -8,11 +8,13 @@
 }
 
 #contact-heading-container h3 {
-    color: #5a9dad;
+    color: #7b7474;
     font-size: 1.5rem;
+    font-weight: 200;
 }
 #contact-heading-container h1 {
-    color: #551A8B;
+    color: #ffffffea;
+    font-weight: 500;
     font-size: 3.5rem;
 }
 
@@ -24,7 +26,7 @@
 }
 #contact-box h4 {
     margin-top: 1rem;
-    color: white;
+    color: #9c9696;
     font-size: 1.2rem;
     font-weight: 200;
 }

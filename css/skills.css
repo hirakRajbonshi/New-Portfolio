@@ -8,13 +8,16 @@
 }
 
 #skills-heading-container h3 {
-    color: green;
+    color: #f6f6f6ea;
 
     /* background-color: #fff; */
     font-size: 1.5rem;
+    font-weight: 100;
 }
 #skills-heading-container h1 {
-    background: linear-gradient(45deg, rgb(0, 162, 255), rgb(4, 0, 255));
+    /* color: orange; */
+    font-weight: 500;
+    background: linear-gradient(45deg, #ff9900c9, #ff9900);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.5rem;

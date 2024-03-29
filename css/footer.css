@@ -8,6 +8,7 @@ footer {
     /* background-color: rgb(7, 7, 7); */
     backdrop-filter: blur(10px);
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 footer h1 {
@@ -37,6 +38,11 @@ footer ul li a {
 footer ul li a img {
     height: 2rem;
     width: 2rem;
+    transition: all 0.1s ease-in;
+}
+
+footer ul li a img:hover {
+    transform: scale(1.2);
 }
  
 footer #nav {
@@ -60,4 +66,11 @@ footer #nav li a {
 }
 footer #ending {
     font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer #return {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
 }

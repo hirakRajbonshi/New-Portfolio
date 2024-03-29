@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 :root {
     width: 100vw;
-    /* scrollbar: none; */
+    scrollbar: none;
     overflow-x: hidden;
     
 }

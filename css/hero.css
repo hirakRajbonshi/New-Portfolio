@@ -36,7 +36,7 @@
 #hero-box #typewriter #colored2 {
     font-size: 4rem;
     color: rgb(43, 0, 108);
-    color: #2470a0;
+    color: #009dff;
 }
 #hero-box #typewriter #colored3 {
     font-size: 4rem;
@@ -44,42 +44,15 @@
     color: #0092ca;
 }
 #hero-box h1 #H {
-    color: red;
-    background: linear-gradient(45deg, #70a9e5, #2509c5);
+    color: white;
+    /* background: linear-gradient(45deg, #70a9e5, #2509c5); */
         /* background: linear-gradient(to right, blue, red); */
         /* background: -webkit-linear-gradient(#2007c5, #d10505); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     animation: colorChange 5s linear 0s infinite forwards;
 }
 
-/* @keyframes colorChange {
-    0% {
-        background: linear-gradient(to top right, blue 50%, green 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    25% {
-        background: linear-gradient(to top right, blue 80%, green 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    50% {
-        background: linear-gradient(to top right, red 40%, blue 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    75% {
-        background: linear-gradient(to top right, red 80%, blue 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    100% {
-        background: linear-gradient(to top right, green 50%, blue 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-} */
 
 #scrollBtn {
     margin-top: 4rem;

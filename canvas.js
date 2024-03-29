@@ -136,5 +136,7 @@ const animate = () => {
 initializer();
 animate();
 
-
-// export default speedMove;
+window.addEventListener("resize", () => {
+    canvas.width = this.innerWidth;
+    canvas.height = this.innerHeight;
+});

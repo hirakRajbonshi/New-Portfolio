@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 10rem;
+    margin-top: 1rem;
+    padding: 3rem 10rem;
     gap: 3rem;
     flex-wrap: wrap;
 }
@@ -26,6 +27,7 @@
     border-radius: 50%;
     position: relative;
     animation: ImageSwing 5s linear 0s infinite alternate;
+    border: 1px solid cyan;
 }
 
 #about #box2 {
@@ -33,11 +35,12 @@
 }
 
 #about-heading-container h3 {
-    color: #5a9dad;
+    color: #f6f6f6ea;
     font-size: 1.5rem;
 }
 #about-heading-container h1 {
-    color: #551A8B;
+    font-weight: 500;
+    color: #FFFFFF;
     font-size: 3.5rem;
 }
 
