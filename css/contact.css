@@ -15,4 +15,52 @@
     color: #551A8B;
     font-size: 3.5rem;
 }
-contact
+
+#contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#contact-box h4 {
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+#inputbox1 {
+    width: 40%;
+    height: 4rem;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.input-box {
+    width: 45%;
+    height: 3rem;
+    background: transparent;
+    color: #FFF;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(1rem);
+
+}
+#message {
+
+    margin: auto;
+    width: 39%;
+    margin-top: 1rem;
+    background: transparent;
+    color: #FFF;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(1rem);
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    transform: scale(1.02);
+}

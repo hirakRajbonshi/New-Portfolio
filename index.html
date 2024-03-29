@@ -6,10 +6,11 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/hero.css">
-    <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 </head>
@@ -31,8 +32,8 @@
     </div>
     <div id="skills">
         <div id="skills-heading-container">
-            <h3>These are some of</h3>
-            <h1>My Skills</h1>
+            <h3 class="h3">These are some of</h3>
+            <h1 class="h1">My Skills</h1>
         </div>
         <div id="skills-container">
 
@@ -118,6 +119,78 @@
         <div id="projects-heading-container">
             <h3>Here's Some of</h3>
             <h1>My Projects</h1>
+            <div id="projects-container">
+                <div class="project-container">
+                    <h1>Portfolio</h1>
+                    <img src="./public/Portfolio.png" alt="">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p>
+                        Elevate my online presence with a dynamic portfolio website project.
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h1>React Portfolio</h1>
+                    <img src="./public/ReactPortfolio.png" alt="">
+                    <ul>
+                        <li>React</li>
+                        <li>Module CSS</li>
+                    </ul>
+                    <p>
+                        Portfolio Website using react.
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h1>Simon Game</h1>
+                    <img src="./public/SimonGame.png" alt="">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>                        
+                        <li>JavaScript</li>
+                    </ul>
+                    <p>
+                        A simple one player game to test our memory power.
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h1>Tic Tac Toe</h1>
+                    <img src="./public/TicTacToe.png" alt="">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>                        
+                        <li>JavaScript</li>
+                    </ul>
+                    <p>
+                        A simple two player game.
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h1>Study Timer</h1>
+                    <img src="./public/StudyTimer.png" alt="">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>                        
+                        <li>JavaScript</li>
+                    </ul>
+                    <p>
+                        A simple timer to keep track of the study time.
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h1>Spotify Clone</h1>
+                    <img src="./public/Spotify.png" alt="">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <p>
+                        I replicate the user interface of the popular music streaming platform Spotify
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <div id="about">
@@ -145,8 +218,8 @@
             </p>
         </div>
         <div id="btn-container">
-            <button>Leave a Message</button>
-            <button>View Projects</button>
+            <button id="leaveMsgBtn">Leave a Message</button>
+            <button id="viewProjectBtn">View Projects</button>
         </div>
     </div>
     <div id="contact">
@@ -157,12 +230,71 @@
         </div>
         <div id="contact-box">
             <h4>Feel free to Reach out to me for any question or opportunities!</h4>
-            <input type="text" name="name" id="name" placeholder="Please Enter Your Name">
-            <input type="email" name="email" id="email" placeholder="Please Enter Your Emain">
+            <div id="inputbox1">
+                <input class="input-box" type="text" name="name" id="name" placeholder="Please Enter Your Name">
+                <input class="input-box" type="email" name="email" id="email" placeholder="Please Enter Your Email">
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <div id="btn-container">
+                <button>SEND</button>
+            </div>
         </div>
-    </div>
     <footer>
+        <h1>Hirak Rajbnshi</h1>
 
+        <ul>
+            <li>
+                <a href="">
+                    <img src="./public/Twitter.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/hirak.rajbonshi.7?mibextid=ZbWKwL">
+                    <img src="./public/Facebook.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/hirak_rajbonshi/">
+                    <img src="./public/Instagram.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/hirak-rajbonshi-baa6a628a/">
+                    <img src="./public/LinkedIn.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/hirakRajbonshi">
+                    <img src="./public/GitHub.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://codeforces.com/profile/karock">
+                    <img src="./public/Codeforce.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://leetcode.com/KAROCK/">
+                    <img src="./public/Leetcode.png" alt="">
+                </a>
+            </li>
+        </ul>
+        <ul id="nav">
+            <li>
+                <a href="/#hero">Back to Top</a>
+            </li>
+            <li>
+                <a href="/#skills">Skills</a>
+            </li>
+            <li>
+                <a href="/#projects">Projects</a>
+            </li>
+            <li>
+                <a href="/#about">About</a>
+            </li>
+        </ul>
+
+        <h1 id="ending">THANKS FOR VISITING</h1>
     </footer>
     <script src="canvas.js"></script>
     <script src="app.js"></script>

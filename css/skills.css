@@ -8,11 +8,15 @@
 }
 
 #skills-heading-container h3 {
-    color: #5a9dad;
+    color: green;
+
+    /* background-color: #fff; */
     font-size: 1.5rem;
 }
 #skills-heading-container h1 {
-    color: #551A8B;
+    background: linear-gradient(45deg, rgb(0, 162, 255), rgb(4, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 3.5rem;
 }
 
@@ -51,8 +55,7 @@
     height: 3rem;
     background-color: black;
     text-align: center;
-    animation: blinker 1s ease-in-out 0s infinite alternate;
-
+    border-radius: 0.5rem;
 }
 .nodes h3 {
     margin-top: 0.7rem;
@@ -62,77 +65,127 @@
 .endNodes {
     height: 6rem;
     width: 6rem;
-    /* border: 2px solid white; */
     border-radius: 50%;
     text-align: center;
     color: white;
     position: relative;
     background-color: black;
+    transition: hover 0.5s ease-in;
 }
 .endNodes img {
     height: 6rem;
     width: 6rem;
-    /* border-radius: 50%; */
 }
 #dev {
     border: 1px solid red;
     left: 6.9rem;
+    animation: red 1s ease-in-out 0s infinite alternate;
+}
+#dev:hover {
+    box-shadow: 1px 1px 10px 1px red, -1px -1px 10px 1px red;
 }
 #programming {
     border: 1px solid blue;
     left: 1.2rem;
+    animation: blue 1s ease-in-out 0s infinite alternate;
+}
+#programming:hover {
+    box-shadow: 1px 1px 10px 1px blue, -1px -1px 10px 1px blue;
 }
 #BackEnd {
     top: 1.4rem;
     left: 2.7rem;
     border: 1px solid orange;
+    animation: orange 1s ease-in-out 0s infinite alternate;
+}
+#BackEnd:hover {
+    box-shadow: 1px 1px 10px 1px orange, -1px -1px 10px 1px orange;
 }
 #FrontEnd {
     top: 7.7rem;
     left: -1.7rem;
     border: 1px solid yellow;
-
+    animation: yellow 1s ease-in-out 0s infinite alternate;
+}
+#FrontEnd:hover {
+    box-shadow: 1px 1px 10px 1px yellow, -1px -1px 10px 1px yellow;
 }
 #Other {
     border: 1px solid green;
     top: 13.2rem;
     left: -5rem;
+    animation: green 1s ease-in-out 0s infinite alternate;
+}
+#Other:hover {
+    box-shadow: 1px 1px 10px 1px green, -1px -1px 10px 1px green;
 }
 #Node {
     top: 8rem;
     left: 10.6rem;
 }
+#Node img:hover  {
+    transform: scale(1.2);
+}
 #Express {
     top: 8rem;
     left: -4.5rem;
 }
+#Express img:hover  {
+    transform: scale(1.2);
+}
 #Cpp {
     left: 1.2rem;
+}
+#Cpp img:hover  {
+    transform: scale(1.2);
 }
 #Java {
     left: -6.9rem;
 }
+#Java img:hover  {
+    transform: scale(1.2);
+}
 #HTML {
     left: 7.2rem;
+}
+#HTML img:hover  {
+    transform: scale(1.2);
 }
 #CSS {
     left: 5.2rem;
 }
+#CSS img:hover  {
+    transform: scale(1.2);
+}
 #JS {
     left: 2.9rem;
 }
+#JS img:hover  {
+    transform: scale(1.2);
+}
 #React {
     left: 0.2rem;
-    /* border: none; */
+}
+#React img:hover  {
+    transform: scale(1.2);
 }
 #Tailwind {
     left: -1.8rem;
 }
+#Tailwind img:hover  {
+    transform: scale(1.2);
+}
 #GitHub {
     left: -3rem;
 }
+#GitHub img:hover  {
+    transform: scale(1.2);
+}
 #Figma {
     left: -7.1rem;
+}
+#Figma img:hover {
+    transform: scale(1.2);
 }
 #TBD {
     left: -10.7rem;
@@ -196,4 +249,81 @@
     100% {
         opacity: 1;
     }
+}
+
+@keyframes red {
+    0% {
+        border: 1px solid rgba(255, 0, 0, 0.4);
+    }
+    100% {
+        border: 1px solid rgba(255, 0, 0, 1);
+    }
+}
+@keyframes green {
+    0% {
+        border: 1px solid rgba(0, 255, 0, 0.4);
+    }
+    100% {
+        border: 1px solid rgba(0, 255, 0, 1);
+    }
+}
+@keyframes blue {
+    0% {
+        border: 1px solid rgba(0, 0, 255, 0.4);
+    }
+    100% {
+        border: 1px solid rgba(0, 0, 255, 1);
+    }
+}
+@keyframes yellow {
+    0% {
+        border: 1px solid rgba(255, 255, 0, 0.4);
+    }
+    100% {
+        border: 1px solid rgba(255, 255, 0, 1);
+    }
+}
+@keyframes orange {
+    0% {
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+    100% {
+        border: 1px solid rgba(255, 165, 0, 1);
+    }
+}
+
+
+
+
+
+#skills #skills-heading-container .animate1 {
+    animation: zoomIn 1s ease-in 0s;
+
+}
+#skills #skills-heading-container .animate3 {
+    animation: fromTop 1s ease-in 0s;
+}
+
+
+@keyframes fromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    } 
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    } 
+    
 }

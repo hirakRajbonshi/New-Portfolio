@@ -97,13 +97,14 @@ let isScrolling;
 
 let speedMove = () => {
     clearTimeout(isScrolling);
-    //function to be executed after scrolling end
+    canvas.style.backgroundColor = 'rgb(4, 4, 4)';
     isScrolling = setTimeout(() => {
         for(let i = 0; i < NO_PART; i++) {
             particles[i].v = particles[i].u;
             particles[i].vx = particles[i].v*Math.cos(particles[i].theta);
             particles[i].vy = particles[i].v*Math.sin(particles[i].theta);
             initializer();
+        canvas.style.backgroundColor = 'rgb(0, 0, 0)';
         }
         isScrolling = false;
     }, 100)

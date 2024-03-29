@@ -11,20 +11,16 @@
 #hero-box {
     height: 60%;
     width: 60%;
-    /* border: 1px solid white; */
-    /* background-color: rgba(12, 22, 45, 0.3); */
-    /* backdrop-filter: blur(5px); */
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-left: 8rem; */
     align-items: center;
 
 }
 
 #hero-box h1 {
-    color: white;
+    color: #f2f2f2;
     font-size: 6rem;
     
 }
@@ -32,21 +28,58 @@
 #hero-box #typewriter {
     font-size: 4rem;
 }
-#hero-box #typewriter #colored {
+#hero-box #typewriter #colored1 {
     font-size: 4rem;
-    color: rgb(106, 0, 255);
+    color: rgb(0, 85, 255);
+    color: #0081f9;
 }
-#hero-box #typewriter #colored-dark {
+#hero-box #typewriter #colored2 {
     font-size: 4rem;
-    color: rgb(70, 70, 70);
+    color: rgb(43, 0, 108);
+    color: #2470a0;
+}
+#hero-box #typewriter #colored3 {
+    font-size: 4rem;
+    color: rgb(13, 218, 156);
+    color: #0092ca;
 }
 #hero-box h1 #H {
     color: red;
-    background: linear-gradient(to right, #2007c5, #5305d1);
-    /* background: -webkit-linear-gradient(#2007c5, #d10505); */
+    background: linear-gradient(45deg, #70a9e5, #2509c5);
+        /* background: linear-gradient(to right, blue, red); */
+        /* background: -webkit-linear-gradient(#2007c5, #d10505); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: colorChange 5s linear 0s infinite forwards;
 }
+
+/* @keyframes colorChange {
+    0% {
+        background: linear-gradient(to top right, blue 50%, green 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    25% {
+        background: linear-gradient(to top right, blue 80%, green 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background: linear-gradient(to top right, red 40%, blue 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% {
+        background: linear-gradient(to top right, red 80%, blue 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background: linear-gradient(to top right, green 50%, blue 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+} */
 
 #scrollBtn {
     margin-top: 4rem;
@@ -57,13 +90,6 @@
     width: 4rem;
     border: none;
 }
-
-/* ID of the arrow Not working*/
-/* #scrollBtn #arrow1 {
-    animation: arrowZoom 1s ease-in alternate;
-    display: none;
-} */
-
 @keyframes scroll {
 	0% {
 		transform: translateY(0);
