@@ -190,8 +190,11 @@
 #Figma img:hover {
     transform: scale(1.2);
 }
-#TBD {
+#Git {
     left: -10.7rem;
+}
+#Git img:hover {
+    transform: scale(1.2);
 }
 #DevLine {
     stroke: red;
@@ -232,8 +235,8 @@
 #FigmaLine {
     stroke: #F24D1C;
 }
-#TBDLine {
-    /* stroke: ; */
+#GitLine {
+    stroke: #f05134;
 }
 #CppLine {
     stroke: #5D8DBD;
