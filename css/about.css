@@ -28,6 +28,12 @@
     position: relative;
     animation: ImageSwing 5s linear 0s infinite alternate;
     border: 1px solid cyan;
+    transition: all 0.2s ease-in;
+}
+
+#about #box1:hover {
+    animation: none;
+    transform: scale(1.02);
 }
 
 #about #box2 {

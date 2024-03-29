@@ -15,11 +15,11 @@
     font-weight: 100;
 }
 #skills-heading-container h1 {
-    /* color: orange; */
+    color: white;
     font-weight: 500;
-    background: linear-gradient(45deg, #ff9900c9, #ff9900);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: linear-gradient(45deg, #ff9900c9, #ff9900); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     font-size: 3.5rem;
 }
 

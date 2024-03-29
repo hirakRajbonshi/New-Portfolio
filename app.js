@@ -10,10 +10,10 @@ typewriter
   .typeString('<span id="colored1">A Developer</span>')
   .pauseFor(2000)
   .deleteChars(11)
-  .typeString('<span id="colored2">A Coder</span>')
+  .typeString('<span id="colored1">A Coder</span>')
   .pauseFor(2000)
   .deleteChars(7)
-  .typeString('<span id="colored3">A Future Engineer</span>')
+  .typeString('<span id="colored1">A Future Engineer</span>')
   .pauseFor(2000)
   .start();
 
