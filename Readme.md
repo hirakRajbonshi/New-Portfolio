@@ -19,4 +19,4 @@ This repository contains the source code for my personal portfolio website. The 
 </div>
 
 ## Deployment
-Live Website: [https://hirock.netlidy.app](https://hirock.netlidy.app)
+Live Website: [https://hirock.netlify.app](https://hirock.netlify.app)
